@@ -18,4 +18,4 @@ def analyze_sentiment(text):
 for message in consumer:
     tweet = message.value['tweet']
     sentiment = analyze_sentiment(tweet)
-    print(f"Tweet: {tweet} -> Sentiment: {sentiment}")
+    print(f"Tweets: {tweet} -> Sentiment: {sentiment}")
