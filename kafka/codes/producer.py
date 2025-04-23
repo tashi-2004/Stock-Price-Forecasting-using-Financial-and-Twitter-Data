@@ -12,7 +12,7 @@ collection = db["tweets"]
 cursor = collection.find({})  
 for document in cursor:
     tweet = document["tweet"]  
-    producer.send('tweets_topic', {'tweet': tweet})
+    producer.send('tweets_topic', {'tweets': tweet})
     print(f"Sent to Kafka: {tweet}")
     time.sleep(2)  
 producer.close()
