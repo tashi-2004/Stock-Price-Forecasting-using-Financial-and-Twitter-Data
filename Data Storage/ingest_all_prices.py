@@ -10,7 +10,6 @@ def main():
         database="stockdb"
     )
     cursor = conn.cursor()
-
     cursor.execute("""
         SELECT COUNT(*)
         FROM information_schema.columns
@@ -32,7 +31,7 @@ def main():
           (ticker, date, open, high, low, close, adj_close, volume)
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
     """
-    folder = r"C:\Users\USER\Downloads\stock-tweet-and-price\stockprice"
+    folder = r"C:\Users\Tashi\Downloads\stock-tweet-and-price\stockprice"
     for fname in os.listdir(folder):
         if not fname.lower().endswith(".csv"):
             continue
