@@ -4,7 +4,7 @@
 
 This project is designed to integrate **stock market data analysis**, **sentiment analysis of tweets**, and **forecasting of stock prices** using traditional statistical models like **ARIMA** and advanced machine learning models such as **GRU (Gated Recurrent Units)**. 
 The system sources data from **MySQL** (for historical stock prices), **MongoDB** (for storing tweets related to stock tickers), and **Twitter** (for real-time sentiment analysis). 
-The overall goal is to predict future stock prices while analyzing public sentiment towards different stocks based on Twitter data.
+The overall goal is to predict future stock prices while analyzing public sentiment towards different stocks based on Twitter data
 
 
 ## Prerequisites
