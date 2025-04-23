@@ -1,4 +1,4 @@
-I have done till here. This is all in .md format. now continue and modify this and give me a new .md file # Stock-Price-Forecasting-using-Financial-and-Twitter-Data
+# Stock-Price-Forecasting-using-Financial-and-Twitter-Data
 
 ## Overview
 
