@@ -74,6 +74,24 @@ pip install -r requirements.txt
 1. Configure Kafka for real-time streaming.
 2. Ensure that your Kafka server, producer, and consumer are running properly.
 
+## Forecasting Models
+
+The **ARIMA** and **GRU** models are used for stock price forecasting. The output of these models is used for predictions of 1-day, 3-day, and 7-day stock prices.
+
+## Dashboard
+
+An interactive **Dash** dashboard allows users to visualize stock price trends, sentiment trends, and model performance.
+
+## Model Evaluation
+
+### Metrics Used:
+- **Root Mean Squared Error (RMSE)**
+- **Mean Absolute Error (MAE)**
+
+### Key Insights:
+- **ARIMA** performs better for stable stock price predictions.
+- **GRU** performs better for volatile stock price predictions.
+
 ## Run YCSB Benchmarking
 
 1. Use the provided `ycsb_benchmark.sh` file to run benchmarking on MySQL and MongoDB.
@@ -81,6 +99,14 @@ pip install -r requirements.txt
 ```bash
 ./ycsb.sh
 ```
+
+## Kafka Producer & Consumer
+
+Kafka will stream tweet data in real-time to analyze sentiment and correlate it with stock price movements.
+
+## Contribution
+
+We welcome contributions to this repository. Please feel free to fork the repository and submit issues or pull requests. Any improvements or optimizations are greatly appreciated.
 
 ## Contact
 
